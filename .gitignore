@@ -1,0 +1,10 @@
+#keys
+credentials.json
+settings.yaml
+client_secrets.json
+
+parsedData/
+Rawdata/
+
+#pychache
+__pycache__/
