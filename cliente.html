@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet"> 
+    </head>
+<body>
+
+    <div class="bsection">
+        <h2>Cliente</h2>
+        <div class="gif-container">
+            <img src="Lightstream-2x.gif">
+            </img>
+        </div>      
+    </div>
+
+    <form action="" method="post" name="contact_form" class="contact_form"> 
+        <fieldset>
+            <legend>Información personal</legend>  
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text" name="nombreform" placeholder="Nombre" tabindex="3" />
+                </div>
+
+                <div>
+                    <label>Apellidos: </label>
+                    <input type="text" name="apellidosform" placeholder="Apellidos" tabindex="4" />
+                </div>
+
+                <div>
+                    <label>Fecha de nacimiento: </label>
+                    <input type="date" name="nacimientoform" placeholder="aaaa-mm-dd"  />
+                </div>
+                <div>
+                    <label>Edad: </label>
+                    <input type="number" name="edadform" placeholder="Edad" size="3" required />
+                </div>
+
+                <div>
+                    <label>Email:<strong><abbr title="required"></abbr></strong></label>
+                    <input type="email" name="emailform" placeholder="Correo electrónico"  required  />
+                </div>
+
+                <div>
+                    <label>Ciudad: </label>
+                    <input type="text" name="ciudadform" placeholder="Cuidad" required />
+                </div>
+
+               
+
+                <div>
+                    <label>Género: </label>
+                    <div>
+                        <input type="radio" name="generoform" id="hombre" value="hombre"  />
+                        <label for="hombre">Hombre</label>
+                    </div>
+                   <div>
+                    <input type="radio" name="generoform" id="mujer" value="mujer"  />
+                    <label for="mujer">Mujer</label>
+                   </div>
+                   
+                </div>
+
+                <div>
+                    <label>Soltero: </label>
+                    <div>
+                        <input type="radio" name="solteroform" id="si" value="si"  />
+                    <label for="si">Si</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="solteroform" id="no" value="no"  />
+                    <label for="no">No</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="solteroform" id="es complicado" value="es compliacdo"  />
+                    <label for="es complicado">Es complicado</label>
+                    </div>
+                    <input type="radio" name="solteroform" id="es complicado" value="es compliacdo"  />
+                    <label for="es complicado">Es complicado</label>
+                </div>
+
+            
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
